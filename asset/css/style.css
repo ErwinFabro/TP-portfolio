@@ -767,9 +767,9 @@ textarea {
     display: none;
 }
 .main-menu{
-    display: flex;
+    display: none;
     align-items: center;
-    background-color: pink;
+    background-color: transparent;
   
     opacity: 1;
 }
@@ -777,17 +777,18 @@ textarea {
     display: flex;
     align-items: center;
     background-color: white;
-    width: 100vw;
-    padding: 0% 5% 0 5%;
-    background-color: pink;
+    width: 100%;
     opacity: 1;
+    padding:  2%;
+   
 }
 .hero-more-btn{
     background-color: transparent;
     display: flex;
-    justify-content: start;
+    justify-content:space-between;
     align-items: center;
     gap: 2em;
+  
 
 }
 
@@ -839,7 +840,7 @@ display: none;
     text-align: center;
     width: 80vw;
     justify-content: center;
-    background-color: pink;
+    background-color: transparent;
     align-items: center;
  }
 
@@ -912,15 +913,18 @@ display: none;
     
     .header-container{
 
-      background-color: pink;
-        padding: 8%;
+      background-color: transparent;
+        padding: 5% 0 5% 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 100%;
+        width: 100vw;
     }
     .btn{
         display: none;
+    }
+    .logo img{
+        width:100%;
     }
 
 
@@ -930,7 +934,7 @@ display: none;
     }
   
     .hero-container{
-        background-color: blue;
+        background-color: transparent;
         display: flex;
         flex-direction: column-reverse;
 
@@ -989,9 +993,9 @@ display: none;
        
         background-color: transparent;
         text-align: center;
-        font-size: x-large;
+        font-size: xx-large;
         color: black;
-        width: 50%;
+        width: 60%;
 
      }
      .hero-fonts p{
@@ -1004,15 +1008,38 @@ display: none;
 
     /* about celular */
     .about-container{
-        background-color: chocolate;
+        background-color: transparent;
         display: flex;
+        align-items:center;
         flex-direction: column;
         width: 90vw;
     }
+    .about-right{
+        background-color: transparent;
+           width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+
+
+        }
+
+    .services-container{
+        display: flex;
+        background-color: transparent;
+        width: 80vw;
+        flex-direction: column;
+        }
+        .ser-img{
+            background-color: green;
+        }
+        .ser-services{
+            background-color: violet;
+        }
+        .ser-card{
+            background-color: violet;
+        }
+
+
 
 }
-
-
-
-
- 
