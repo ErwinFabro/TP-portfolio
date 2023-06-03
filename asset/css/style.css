@@ -707,6 +707,7 @@ textarea {
 
 .footer{
     background: #0f1839;
+    width: 100;
     
 }
 
@@ -714,6 +715,7 @@ textarea {
     background: transparent;
     display: flex;
     justify-content: center;
+    
 
 }
 
@@ -1085,6 +1087,36 @@ display: none;
 /* quita el footer */
         .container{
             display: none;
+            }
+
+            .contact{
+                background-color: transparent;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                flex-direction: column;
+            }
+            .contact-container{
+                background-color: transparent;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                flex-direction: column;
+            }
+            .contact-block-container{
+                background-color: transparent;
+                display: flex;
+                flex-direction: column;
+                width: 81vw;
+            }
+
+            form{
+                background-color: transparent;
+                width:79vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
             }
 
 }
