@@ -756,7 +756,7 @@ textarea {
 
 
 
-
+/* tablet */
 
 @media (min-width: 768px) and (max-width: 1024px) {
     body{
@@ -769,9 +769,26 @@ textarea {
 .main-menu{
     display: flex;
     align-items: center;
-
+    background-color: pink;
   
     opacity: 1;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    padding: 0% 5% 0 5%;
+    background-color: pink;
+    opacity: 1;
+}
+.hero-more-btn{
+    background-color: transparent;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2em;
+
 }
 
 .hero-container-img img{
@@ -792,7 +809,7 @@ display: none;
     background-color: transparent;
     text-align: center;
     font-size: xx-large;
-    color: black;
+    color:#ff3d4b;
  }
 
  .hero-fonts h1{
@@ -815,6 +832,16 @@ display: none;
     text-align: center;
     background-color: transparent;
 }
+
+.about-right {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+    background-color: pink;
+    align-items: center;
+ }
 
 .about-container{
     background-color: transparent;
@@ -841,6 +868,26 @@ display: none;
     flex-direction: column;
 }
 
+
+.services-container{
+    display: flex;
+        background-color: white;
+        width: 80vw;
+        flex-direction: column;
+}
+.ser-img{
+    background-color: green;
+}
+.ser-services{
+    background-color: violet;
+}
+.ser-card{
+    background-color: violet;
+}
+
+
+
+
 }
 
 
@@ -855,39 +902,116 @@ display: none;
 
 
 
-
+/* celular */
 
 @media (min-width: 0px) and (max-width: 767px) {
     body{
     background-color: green;
     width: auto;
-    
     }
     
     .header-container{
 
-      background-color: grey;
-
+      background-color: pink;
+        padding: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    .btn{
+        display: none;
+    }
+
+
 
     .main-menu{
         display: none;
     }
   
     .hero-container{
-        background-color: yellow;
+        background-color: blue;
+        display: flex;
+        flex-direction: column-reverse;
+
+        width: 90vw;
+        align-items: center;
+    }
+
+    .hero-more-btn{
+        background-color: transparent;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        width:40vh;
+    
+    }
+    .hero-btn{
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    
     }
    
     .hero-container-img {
         display: flex;
+        align-items: center;
     }
 
     .hero-container-img img{
         height: 60vw;
     }
+
+    .hero-fonts{
+   background-color: transparent;
+   padding: 10% 0 10% 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
+
+    .hero-fonts h4{
+       
+        background-color: transparent;
+        text-align: center;
+        font-size:large;
+        padding: 4%;
+        color:#ff3d4b;
+     }
+     
+
+     .hero-fonts h1{
+       
+        background-color: transparent;
+        text-align: center;
+        font-size: x-large;
+        color: black;
+        width: 50%;
+
+     }
+     .hero-fonts p{
+    
+        background-color: transparent;
+        text-align: center;
+        font-size: medium;
+        color: black;
+     }
+
+    /* about celular */
+    .about-container{
+        background-color: chocolate;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+}
+
+
 
 
  
