@@ -946,7 +946,11 @@ display: none;
         width:100%;
     }
 
-
+    .text-fuentes{
+        background-color: transparent;
+        width:85vw;
+        text-align: center;
+    }
 
     .main-menu{
         display: none;
@@ -955,7 +959,7 @@ display: none;
     .hero-container{
         background-color: transparent;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         width: 90vw;
         align-items: center;
@@ -1031,7 +1035,13 @@ display: none;
         display: flex;
         align-items:center;
         flex-direction: column;
+        justify-content: center;
         width: 90vw;
+    }
+    .about-tittle h1{
+        background-color: transparent;
+        font-size: xx-large;
+        text-align: center;
     }
     .about-right{
         background-color: transparent;
@@ -1072,7 +1082,9 @@ display: none;
             background-repeat: no-repeat;
             background-position: center;
         }
-
-
+/* quita el footer */
+        .container{
+            display: none;
+            }
 
 }
