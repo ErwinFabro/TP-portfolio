@@ -386,7 +386,7 @@ form{
     border: 8px solid #F6F5FF;
     transition: .3s;
     padding: 3em;
-    background-image: url(/web1.png);
+    background-image: url(asset/img/web1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -394,7 +394,7 @@ form{
     border: 8px solid #F6F5FF;
     transition: .3s;
     padding: 3em;
-    background-image: url(/web2.png);
+    background-image: url(asset/img/web2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -402,7 +402,7 @@ form{
     border: 8px solid #F6F5FF;
     transition: .3s;
     padding: 3em;
-    background-image: url(/web3.png);
+    background-image: url(asset/img/web3.png);
     background-size:contain;
     background-repeat: no-repeat;
 }
