@@ -288,7 +288,7 @@ form{
 .hero-container-img img{
   
 	
-    background-color:#ff3d4b;
+    background-color: #ff3d4f;
     border-radius: 50%;    
 }
 .more-btn {
@@ -580,10 +580,113 @@ background: #ff3d4f;
 
 }
 
-.portfolio-work-coontainer{
-    background-color: transparent;
+.portfolio-work-container{
+    background-color: red;
 }
 
+/* portafolio web */
+.portweb{
+
+
+    justify-content: center;
+    
+}
+.portweb-container{
+    background-color: transparent;
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 10% 0 10% 0;
+    gap: 5%;
+}
+.portweb-services{
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+}
+
+.portweb-services-web{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+
+    
+}
+.portweb-services-web2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+}
+.portweb-services-web3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+}
+.portweb-services-web2{
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+}
+.portweb-services-web3{
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+}
+.portweb-services-web:hover{
+    border-color: #ff3d4f;
+   
+}
+.portweb-services-web2:hover{
+    border-color: #ff3d4f;
+   
+}
+.portweb-services-web3:hover{
+    border-color: #ff3d4f;
+   
+}
+
+.portweb-img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.portweb-services h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #000a2d;
+	line-height: 25px;
+	margin-bottom: 1.250em;
+}
+.portweb-icon a{
+    color:#ff3d4b
+}
+.portweb-icon ul li{
+	list-style: none;
+	margin-bottom: 1.250em;
+
+}
+.portweb-icon ul li a{
+	font-size: 14px;
+	color:red;
+	font-weight: 500;
+}
+.portweb-icon ul li a i{
+	font-size: 1.250em;
+	color: #ff3d4f;
+	margin-right: 1.250em;
+	
+}
 
 /* contact */
 .contact{
@@ -671,9 +774,15 @@ textarea {
 /* footer */
 .footer-log {
     margin-bottom: 30px;
+    background-color: transparent;
+    padding-top: 3em;
+    padding-bottom: 0em;   
 }
-.footer-icon i {
+.footer-icon {
     color: #a4acc9;
+    margin-left: 15px;
+}
+.footer-icon img{
     margin-left: 15px;
 }
 .footer-content h2 {
@@ -702,12 +811,13 @@ textarea {
 
 .footer-redes{
     background-color: transparent;
-    width: 90%;
-}
+    height: 100%;
+    }
 
 .footer{
     background: #0f1839;
-    width: 100;
+    width: 100vw;
+ 
     
 }
 
@@ -715,8 +825,6 @@ textarea {
     background: transparent;
     display: flex;
     justify-content: center;
-    
-
 }
 
 .fotter-list{
@@ -732,6 +840,10 @@ textarea {
 
 .footer-culumn{
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+align-items: center;
+height:100%;
 }
 
 .copyright-broder{
