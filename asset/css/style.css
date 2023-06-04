@@ -1071,7 +1071,7 @@ display: none;
 @media (min-width: 0px) and (max-width: 767px) {
     body{
     background-color: transparent;
-    width: auto;
+
     }
     
     .header-container{
@@ -1081,7 +1081,7 @@ display: none;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 100vw;
+      
     }
     .btn{
         display: none;
@@ -1101,16 +1101,17 @@ display: none;
     }
     
     .hero{
-        background-color: #6e7797;
-        height: 100vh;
+        background-color: blue;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
     }
     .hero-container{
-        background-color: transparent;
+        background-color: green;
         display: flex;
         flex-direction: column;
-
-        width: 90vw;
         align-items: center;
+        padding: 0% 0% 0% 0%;
+        margin: 0% 0% 0% 0%;
     }
 
     .hero-more-btn{
@@ -1205,7 +1206,8 @@ display: none;
     }
 
     .about-tittle h1{
-        font-size:x-large;
+        font-size:large;
+        overflow-wrap: 90%;
     }
 
     .services-container{
