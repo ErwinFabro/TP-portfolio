@@ -2,6 +2,10 @@
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&family=Roboto&family=Rubik:wght@700;900&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+
 
 *{
     margin: 0;
@@ -167,6 +171,7 @@ form{
 .logo {
     background-color: transparent;
     opacity: 1;
+    transition: .3s;
 }
 .container {
     background-color: transparent;
@@ -235,18 +240,20 @@ form{
     background-color: transparent;
     display: flex;
     justify-content: center;
-    padding: 5em 0 0 0;
-    
+    padding: 15em 0 2em 0;
+
+    align-items: center
+    ;
 }
 #hero{   
 }
 .hero-container{
     background-color: transparent;
     display: flex;
-    width: 70vw;
     justify-content: center;
     align-items: center;
     gap: 8%;
+    width: 60vw; 
 }
 .hero-btn{
     background-color: transparent;
@@ -262,10 +269,8 @@ form{
     gap: 2em;
 
 }
-.hero-more-btn a{
-    
+.hero-more-btn a{  
     display: flex;
-    justify-content: start;
     align-items: center;
 }
 .hero-fonts h4{
@@ -286,10 +291,9 @@ form{
 	margin-bottom: 30px;
 }
 .hero-container-img img{
-  
-	
-    background-color: #ff3d4f;
-    border-radius: 50%;    
+      background-color: #ff3d4f;
+    border-radius: 50%;  
+    transition: .3s;  
 }
 .more-btn {
     display: inline-block;
@@ -321,9 +325,9 @@ form{
     background-color: transparent;
     display: flex;
     justify-content: center;
+    height: 70vh;
 }
 #about{
-    
 }
 .about-container{
     background-color: transparent;
@@ -347,8 +351,6 @@ form{
     color: #ff3d4f;
     margin-bottom: 1.250em;
 }
-
-
 .about-tittle h1 {
     font-size: 60px;
     color: #000a2d;
@@ -417,10 +419,12 @@ form{
     height: 80px;
     width: 80px;
     margin-bottom: 2.188em;
+ 
 }
 .ser-img img{
     width: 100%;
     height: 100%;
+    transition: .3s;
 
 }
 
@@ -431,27 +435,32 @@ form{
 	line-height: 25px;
 	margin-bottom: 1.250em;
 }
-.services-icon ul li{
+.portweb-icon ul li{
 	list-style: none;
 	margin-bottom: 1.250em;
 
 }
-.services-icon ul li a{
+.portweb-icon ul li a{
 	font-size: 14px;
 	color:#6e7797;
 	font-weight: 500;
 }
-.services-icon ul li a i{
+.portweb-icon ul li a i{
 	font-size: 1.250em;
 	color: #ff3d4f;
 	margin-right: 1.250em;
 	
 }
 /* skill */
+#skills{
+
+}
 .skill{
     background-color: transparent;
     display: flex;
     justify-content: center;
+    padding: 10% 0 0% 0;
+
     
 }
 .skill-container{
@@ -464,8 +473,10 @@ form{
     gap: 5%;
 }
 .skill-img img {
-    /* width: 100%; */
+
     border: 8px solid #ddd;
+    transition: .3s;
+
 }
 .skill-progress{
     background-color: gainsboro;
@@ -527,10 +538,14 @@ background: #ff3d4f;
 
 
 /* portfolio */
+#portfolio{
+    
+}
 .portfolio{
     background-color: transparent;
     display: flex;
     justify-content: center;
+    padding: 5% 0% 0% 0%;
 
 }
 
@@ -581,7 +596,7 @@ background: #ff3d4f;
 }
 
 .portfolio-work-container{
-    background-color: red;
+    background-color: transparent;
 }
 
 /* portafolio web */
@@ -689,10 +704,14 @@ background: #ff3d4f;
 }
 
 /* contact */
+#contact{
+    
+}
 .contact{
     background-color: transparent;
     display: flex;
     justify-content: center;
+
  
     
 }
@@ -702,7 +721,7 @@ background: #ff3d4f;
     width: 100%;    
     justify-content: space-between;
     flex-direction: column;
-    padding: 0% 0 10% 0;
+    padding: 5% 0 10% 0;
 
 }
 .contact-title-container{
@@ -979,6 +998,17 @@ display: none;
     display: flex;
     flex-direction: column;
 }
+.portweb-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 10% 0 10% 0;
+   
+}
+
 
 .contact-container{
     background-color: transparent;
@@ -1069,7 +1099,11 @@ display: none;
     .main-menu{
         display: none;
     }
-  
+    
+    .hero{
+        background-color: #6e7797;
+        height: 100vh;
+    }
     .hero-container{
         background-color: transparent;
         display: flex;
@@ -1144,13 +1178,16 @@ display: none;
      }
 
     /* about celular */
+    .about{
+        background-color: pink;
+    }
     .about-container{
-        background-color: transparent;
+        background-color: red;
         display: flex;
         align-items:center;
         flex-direction: column;
         justify-content: center;
-        width: 90vw;
+    
     }
     .about-tittle h1{
         background-color: transparent;
@@ -1165,7 +1202,11 @@ display: none;
            align-items: center;
 
 
-        }
+    }
+
+    .about-tittle h1{
+        font-size:x-large;
+    }
 
     .services-container{
         display: flex;
@@ -1173,33 +1214,36 @@ display: none;
         width: 80vw;
         flex-direction: column;
         }
-        .ser-img{
+        .portweb-img{
             background-color: green;
         }
-        .ser-services{
+        .portweb-services{
             background-color: violet;
         }
         .ser-card{
             background-color: violet;
         }
 
-        .ser-services-web{
+    
+
+        .portweb-container{
+            background-color: transparent;
             display: flex;
-            justify-content: center;
             flex-direction: column;
-            align-items: center;
-            border: 8px solid #F6F5FF;
-            transition: .3s;
-            padding: 3em;
-            background-image: url(asset/img/web1.png);
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
+ 
+            justify-content: space-around;
+            align-items: stretch;
+            padding: 10% 0 0 0;
+           
         }
+        .portweb-services-web{
+            background-color: transparent;
+            padding-top: em;
+        }
+
+
 /* quita el footer */
-        .container{
-            display: none;
-            }
+    .footer{display: none;}
 
             .contact{
                 background-color: transparent;
