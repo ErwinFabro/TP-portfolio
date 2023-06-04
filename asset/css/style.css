@@ -1061,6 +1061,185 @@ display: none;
 
 
 
+/* cel */
+
+@media (min-width: 1px) and (max-width: 767px) {
+    body{
+    background-color: transparent;
+    width: auto;
+}
+.bar{
+    display: none;
+}
+.main-menu{
+    display: none;
+    align-items: center;
+    background-color: transparent;
+  
+    opacity: 1;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    padding:  2%;
+   
+}
+.hero-more-btn{
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 2em;
+  
+
+}
+
+.hero-container-img img{
+    height: 40vw;
+}
+.hero-container{
+background-color: transparent;
+}
+.hero{
+    background-color: transparent;
+    height: 100vh;
+    padding: 0 0 0 0;
+}
+.hero-fonts{
+   background-color: transparent;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.hero-fonts h4{
+
+    background-color: transparent;
+    text-align: center;
+    font-size: large;
+    color:#ff3d4b;
+ }
+
+ .hero-fonts h1{
+    text-align: center;
+    font-size: large;
+ }
+
+ .hero-fonts p{
+    text-align: center;
+    font-size: x-large;
+    color: black;
+ }
+
+ .hero-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.about-tittle{
+
+    text-align: center;
+    background-color: transparent;
+}
+
+.about-tittle h1{
+
+    text-align: center;
+    background-color: transparent;
+    font-size: medium;
+}
+
+.about-right {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 80vw;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+ }
+
+.about-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.text-fuentes{
+    background-color: transparent;
+    width:80vw;
+}
+
+
+.portfolio-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.portweb-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 10% 0 10% 0;
+   
+}
+
+
+.contact-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.services-container{
+    display: flex;
+        background-color: white;
+        width: 80vw;
+        flex-direction: column;
+}
+.ser-img{
+    background-color: green;
+    width: 40vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.ser-services{
+    background-color: violet;
+}
+.ser-card{
+    background-color: violet;
+}
+
+.ser-services-web{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid #F6F5FF;
+    transition: .3s;
+    padding: 3em;
+    background-image: url(asset/img/web1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+}
+
+
+
+
 
 
 
@@ -1068,7 +1247,7 @@ display: none;
 
 /* celular */
 
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 1px) {
     body{
     background-color: transparent;
 
