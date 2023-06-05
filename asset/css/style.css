@@ -969,6 +969,7 @@ display: none;
     background-color: transparent;
     display: flex;
     flex-direction: column;
+    height: 80vh;
 }
 .about-tittle{
     width:80vw;
@@ -1146,10 +1147,10 @@ background-color: transparent;
  }
 
  .hero-container{
-    background-color: transparent;
+    background-color: red;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 60vh;
 }
 .about-tittle{
 
