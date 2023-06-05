@@ -197,7 +197,7 @@ form{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 20%;
+    flex-basis: 22%;
 }
 
 .main-menu ul li {
@@ -279,6 +279,7 @@ form{
 	margin-bottom: 40px;
 }
 .hero-fonts h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 73px;
     color: #000;
     font-weight: 600;
@@ -294,7 +295,7 @@ form{
       background-color: #ff3d4f;
     border-radius: 50%;  
     transition: .3s;  
-    width: 80%;
+    width: 100%;
 }
 .more-btn {
     display: inline-block;
@@ -1029,17 +1030,18 @@ display: none;
         flex-direction: column;
 }
 .ser-img{
-    background-color: green;
+    background-color: transparent;
     width: 40vh;
     height: auto;
     display: flex;
     align-items: center;
 }
 .ser-services{
-    background-color: violet;
+    background-color: transparent;
+    padding-bottom: 0.5em;
 }
 .ser-card{
-    background-color: violet;
+    background-color: transparent;
 }
 
 .ser-services-web{
