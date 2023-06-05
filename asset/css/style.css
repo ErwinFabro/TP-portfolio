@@ -292,9 +292,11 @@ header {
     font-weight: 600;
 	line-height: 90px;
 	margin-bottom: 30px;
-    width:90%;
+    width:100%;
+    background-color:transparent;
     position: relative;
     animation: hero-fonts 4s ;
+
 }
 
 @keyframes hero-fonts {
@@ -312,13 +314,13 @@ header {
 
   @keyframes hero-fonts2 {
     0% {
-      bottom: 0;
+      left: 0;
     }
     0% {
-        bottom: 100px;
+        left: 100px;
     }
     70% {
-        bottom: 0px;
+        left: 0px;
     }
   }
 
@@ -1053,7 +1055,9 @@ display: none;
  }
 
  .hero-fonts h1{
-    text-align: center;
+    text-align: left;
+
+  
  }
 
  .hero-fonts p{
@@ -1179,7 +1183,7 @@ display: none;
 .main-menu{
     display: none;
     align-items: center;
-    background-color: transparent;
+    background-color: white;
   
     opacity: 1;
 }
@@ -1190,6 +1194,7 @@ display: none;
     width: 100%;
     opacity: 1;
     padding:  2%;
+    z-index: 9999;
    
 }
 .hero-more-btn{
@@ -1209,12 +1214,13 @@ display: none;
     height: 40vw;
 }
 .hero-container{
+
 background-color: transparent;
 }
 .hero{
     background-color: transparent;
     height: 100vh;
-    padding: 0 0 0 0;
+    padding: 3em 0 0 0;
 }
 .hero-fonts{
    background-color: transparent;
@@ -1234,7 +1240,8 @@ background-color: transparent;
  .hero-fonts h1{
     text-align: center;
     font-size: x-large;
-    line-height: 0px;
+    line-height: 1em;
+    width: 70%;
  }
 
  .hero-fonts p{
