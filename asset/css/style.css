@@ -1097,6 +1097,9 @@ display: none;
 
 }
 
+.hero-container-img {
+    padding-bottom: 15em;
+}
 .hero-container-img img{
     height: 40vw;
 }
@@ -1116,7 +1119,7 @@ background-color: transparent;
    align-items: center;
 }
 .hero-fonts h4{
-
+    
     background-color: transparent;
     text-align: center;
     font-size: large;
@@ -1170,6 +1173,12 @@ background-color: transparent;
    
     
 }
+.about-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
 .text-fuentes{
     background-color: transparent;
     width:80vw;
@@ -1193,31 +1202,28 @@ background-color: transparent;
 }
 
 
-.contact-container{
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 .services-container{
     display: flex;
-        background-color: white;
-        width: 80vw;
+        background-color: transparent;
+        width: 90vw;
         flex-direction: column;
+        padding-top: 70%;
 }
 .ser-img{
-    background-color: green;
-    width: 40vh;
+    background-color: transparent;
+    width: 20vh;
     height: auto;
     display: flex;
     align-items: center;
 }
 .ser-services{
-    background-color: violet;
+    background-color: transparent;
 }
 .ser-card{
-    background-color: violet;
+    background-color: transparent;
 }
 
 .ser-services-web{
@@ -1234,6 +1240,27 @@ background-color: transparent;
     background-position: center;
 }
 
+/* skill */
+
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-container  img{
+    height: 330px;
+}
+.skill-right{
+    background-color: #143cca;
+    width: 180%;
+}
+.skills{
+    background-color: yellow;
+}
+.skill-progress{
+    background-color: yellowgreen;
+    width: auto;
+}
 
 }
 
