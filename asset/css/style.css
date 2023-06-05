@@ -346,6 +346,13 @@ header {
     position: relative;
     animation: hero-fonts3 4s ;
 }
+.hero-container-img{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
 .hero-container-img img{
     background-color: #ff3d4f;
     border-radius: 50%;  
