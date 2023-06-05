@@ -294,6 +294,7 @@ form{
       background-color: #ff3d4f;
     border-radius: 50%;  
     transition: .3s;  
+    width: 80%;
 }
 .more-btn {
     display: inline-block;
@@ -1061,7 +1062,7 @@ display: none;
 
 
 
-/* cel */
+/* celular */
 
 @media (min-width: 1px) and (max-width: 767px) {
     body{
@@ -1128,12 +1129,13 @@ background-color: transparent;
 
  .hero-fonts h1{
     text-align: center;
-    font-size: large;
+    font-size: x-large;
+    line-height: 0px;
  }
 
  .hero-fonts p{
     text-align: center;
-    font-size: x-large;
+    font-size: medium;
     color: black;
  }
 
@@ -1154,6 +1156,8 @@ background-color: transparent;
     text-align: center;
     background-color: transparent;
     font-size: medium;
+    line-height: 1em;
+
 }
 
 .about-right {
@@ -1251,235 +1255,65 @@ background-color: transparent;
     height: 330px;
 }
 .skill-right{
-    background-color: #143cca;
-    width: 180%;
+    background-color: transparent;
+    width: 100%;
 }
 .skills{
-    background-color: yellow;
+    background-color: transparent;
 }
 .skill-progress{
-    background-color: yellowgreen;
-    width: auto;
-}
-
-}
-
-
-
-
-
-
-
-
-
-/* celular */
-
-@media (min-width: 0px) and (max-width: 1px) {
-    body{
     background-color: transparent;
+    width: 100%;
+}
 
-    }
-    
-    .header-container{
+.cv-hmb a{
+    display: none;
+}
 
-      background-color: white;
-        padding: 5% 0 5% 0;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      
-    }
-    .btn{
-        display: none;
-    }
-    .logo img{
-        width:100%;
-    }
-
-    .text-fuentes{
-        background-color: transparent;
-        width:85vw;
-        text-align: center;
-    }
-
-    .main-menu{
-        display: none;
-    }
-    
-    .hero{
-        background-color: blue;
-        padding: 0% 0% 0% 0%;
-        margin: 0% 0% 0% 0%;
-    }
-    .hero-container{
-        background-color: green;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0% 0% 0% 0%;
-        margin: 0% 0% 0% 0%;
-    }
-
-    .hero-more-btn{
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2em;
-        width:40vh;
-    
-    }
-    .hero-btn{
-        background-color: transparent;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2em;
-    
-    }
-   
-    .hero-container-img {
-        display: flex;
-        align-items: center;
-    }
-
-    .hero-container-img img{
-        height: 60vw;
-    }
-
-    .hero-fonts{
+.footer-container-total{
    background-color: transparent;
-   padding: 10% 0 10% 0;
    display: flex;
    flex-direction: column;
-   align-items: center;
+}
+.footer-content{
+    display: none;
+}
+ /* contact */
+
+.contact-block-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
 }
 
-    .hero-fonts h4{
-       
-        background-color: transparent;
-        text-align: center;
-        font-size:large;
-        padding: 4%;
-        color:#ff3d4b;
-     }
-     
 
-     .hero-fonts h1{
-       
-        background-color: transparent;
-        text-align: center;
-        font-size: xx-large;
-        color: black;
-        width: 60%;
+.contact-from input {
+    background-color: transparent;
+    width: 85vw;
+}
 
-     }
-     .hero-fonts p{
+.contact-from textarea {
+    background-color: transparent;
+    width: 85vw;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-from form{
+    background-color: transparent;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-        background-color: transparent;
-        text-align: center;
-        font-size: medium;
-        color: black;
-     }
+}
 
-    /* about celular */
-    .about{
-        background-color: pink;
-    }
-    .about-container{
-        background-color: red;
-        display: flex;
-        align-items:center;
-        flex-direction: column;
-        justify-content: center;
-    
-    }
-    .about-tittle h1{
-        background-color: transparent;
-        font-size: xx-large;
-        text-align: center;
-    }
-    .about-right{
-        background-color: transparent;
-           width: 100%;
-           display: flex;
-           flex-direction: column;
-           align-items: center;
-
-
-
-    .about-tittle h1{
-        font-size:large;
-        overflow-wrap: 90%;
-    }
-
-    .services-container{
-        display: flex;
-        background-color: pink;
-        width: 80vw;
-        flex-direction: column;
-        }
-        .portweb-img{
-            background-color: green;
-        }
-        .portweb-services{
-            background-color: violet;
-        }
-        .ser-card{
-            background-color: violet;
-        }
-
-    
-
-        .portweb-container{
-            background-color: transparent;
-            display: flex;
-            flex-direction: column;
- 
-            justify-content: space-around;
-            align-items: stretch;
-            padding: 10% 0 0 0;
-           
-        }
-        .portweb-services-web{
-            background-color: transparent;
-            padding-top: em;
-        }
-
-
-/* quita el footer */
-    .footer{display: none;}
-
-            .contact{
-                background-color: transparent;
-                display: flex;
-                justify-content: center;
-                width: 100%;
-                flex-direction: column;
-            }
-            .contact-container{
-                background-color: transparent;
-                display: flex;
-                justify-content: center;
-                width: 100%;
-                flex-direction: column;
-            }
-            .contact-block-container{
-                background-color: transparent;
-                display: flex;
-                flex-direction: column;
-                width: 81vw;
-            }
-
-            form{
-                background-color: transparent;
-                width:79vw;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                
-            }
-
+.footer-content{
+    display: none;
+}
 }
