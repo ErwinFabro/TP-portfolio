@@ -142,11 +142,11 @@ form{
     right: 0;
     background: #fff;
 
-    z-index: 9999;
 }
 
-.header-area {
-    padding: 0 0em;
+header {
+
+    z-index: 9999;
 }
 
 .header-container {
@@ -171,8 +171,9 @@ form{
 .logo {
     background-color: transparent;
     opacity: 1;
-    transition: .3s;
+
 }
+
 .container {
     background-color: transparent;
     display: flex;
@@ -191,6 +192,9 @@ form{
 
     cursor: pointer;
 }
+
+
+
 
 .cv-hmb{
     background-color: transparent;
@@ -236,6 +240,7 @@ form{
 	width: 100%;
 }
 /* hero */
+
 .hero{
     background-color: transparent;
     display: flex;
@@ -277,6 +282,8 @@ form{
 	font-size: 1.250em;
 	color: #ff3d4f;
 	margin-bottom: 40px;
+    position: relative;
+    animation: hero-fonts2 4s ;
 }
 .hero-fonts h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -285,18 +292,78 @@ form{
     font-weight: 600;
 	line-height: 90px;
 	margin-bottom: 30px;
+    width:90%;
+    position: relative;
+    animation: hero-fonts 4s ;
 }
+
+@keyframes hero-fonts {
+    0% {
+      right: 0;
+    }
+    0% {
+        right: 100px;
+    }
+    70% {
+      right: 0px;
+    }
+  }
+
+
+  @keyframes hero-fonts2 {
+    0% {
+      bottom: 0;
+    }
+    0% {
+        bottom: 100px;
+    }
+    70% {
+        bottom: 0px;
+    }
+  }
+
+  @keyframes hero-fonts3 {
+    0% {
+      left: 0;
+    }
+    0% {
+        left: 100px;
+    }
+    70% {
+        left: 0px;
+    }
+  }
+
+  
+
+
 .hero-fonts p {
     font-size: 1.250em;
 	line-height: 30px;
 	margin-bottom: 30px;
+    position: relative;
+    animation: hero-fonts3 4s ;
 }
 .hero-container-img img{
-      background-color: #ff3d4f;
+    background-color: #ff3d4f;
     border-radius: 50%;  
-    transition: .3s;  
+ 
     width: 100%;
+    position: relative;
+    animation: hero-img 4s ;
+
 }
+
+@keyframes hero-img {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+  }
+
 .more-btn {
     display: inline-block;
 }
@@ -480,6 +547,36 @@ form{
     transition: .3s;
 
 }
+
+.skill-img:hover img {
+
+    border: 8px solid #ff3d4b;
+    border-radius: 50%;
+    background-color: #ff3d4b;
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+    
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 .skill-progress{
     background-color: gainsboro;
     border-radius: 4px 4px  4px 4px;
@@ -1147,7 +1244,7 @@ background-color: transparent;
  }
 
  .hero-container{
-    background-color: red;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     height: 60vh;
@@ -1305,6 +1402,7 @@ background-color: transparent;
     display: flex;
     flex-direction: column;
     width: 90vw;
+    
 }
 
 
@@ -1330,6 +1428,7 @@ iframe {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+ 
     
 }
 
