@@ -1005,9 +1005,7 @@ height:100%;
     background-color: transparent;
     width: auto;
 }
-.bar{
-    display: none;
-}
+
 .main-menu{
     display: none;
     align-items: center;
@@ -1036,6 +1034,8 @@ height:100%;
 
 .hero-container-img img{
     height: 40vw;
+    width: auto;
+ 
 }
 .container{
 display: none;
@@ -1072,6 +1072,12 @@ display: none;
     display: flex;
     flex-direction: column;
     height: 80vh;
+}
+/* about */
+.about{
+    background-color: transparent;
+    padding-top: 6em;
+    padding-bottom: 10em;
 }
 .about-tittle{
     width:80vw;
@@ -1178,9 +1184,7 @@ display: none;
     background-color: transparent;
     width: auto;
 }
-.bar{
-    display: none;
-}
+
 .main-menu{
     display: none;
     align-items: center;
@@ -1213,6 +1217,7 @@ display: none;
 }
 .hero-container-img img{
     height: 40vw;
+    width: auto;
 }
 .hero-container{
 
