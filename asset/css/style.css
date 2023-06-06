@@ -374,6 +374,7 @@ header {
 .more-btn {
     display: inline-block;
 }
+
 .video-btn-link {
     display: inline-block;
 }
@@ -490,6 +491,7 @@ header {
 }
 .ser-services:hover{
     border-color: #ff3d4f;
+
    
 }
 .ser-img{
@@ -522,12 +524,7 @@ header {
 	color:#6e7797;
 	font-weight: 500;
 }
-.portweb-icon ul li a i{
-	font-size: 1.250em;
-	color: #ff3d4f;
-	margin-right: 1.250em;
-	
-}
+
 /* skill */
 #skills{
     background-color: transparent;
