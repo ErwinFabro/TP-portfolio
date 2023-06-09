@@ -43,7 +43,7 @@ Este proyecto se encuentra bajo la licencia [MIT](https://opensource.org/license
 ¡Gracias por visitar mi portfolio! Espero que disfrutes explorando mis trabajos y mi proceso de desarrollo web. Si tienes alguna pregunta, no dudes en contactarme.
 
 
-  <img src="" align="center"/>
+  <img src="https://github.com/ErwinFabro/TP-portfolio/blob/main/asset/img/screencapture.png" align="center"/>
 
 
 
